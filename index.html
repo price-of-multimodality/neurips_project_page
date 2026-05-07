@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Project page and dataset links for The Price of Multimodality in Behavioral Cloning.">
+  <meta name="keywords" content="behavioral cloning, multimodality, imitation learning, datasets">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Price of Multimodality in Behavioral Cloning</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title paper-title">
+            The Price of Multimodality in Behavioral Cloning
+          </h1>
+          <p class="subtitle is-4">
+            Project page and dataset links
+          </p>
+          <div class="publication-links">
+            <span class="link-block">
+              <a href="#datasets" class="button is-normal is-rounded is-dark">
+                <span>Datasets</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="#artifact" class="button is-normal is-rounded is-dark">
+                <span>Code Artifact Notes</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="datasets">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Datasets</h2>
+    <p class="content has-text-centered artifact-note">
+      Dataset archives will be linked here after upload. The code artifact README
+      points to this page so the links can be updated without changing the
+      released source snapshot.
+    </p>
+
+    <div class="columns is-multiline mt-5">
+      <div class="column is-half">
+        <div class="card dataset-card">
+          <div class="card-content">
+            <p class="title is-5">Synthetic Benchmarks</p>
+            <p class="content">
+              Synthetic multimodal control datasets used for the information
+              and valid-mass diagnostics.
+            </p>
+            <span class="tag is-light">Coming soon</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="card dataset-card">
+          <div class="card-content">
+            <p class="title is-5">PushT</p>
+            <p class="content">
+              LeRobot archive and corresponding processed cache instructions
+              for the PushT experiments.
+            </p>
+            <span class="tag is-light">Coming soon</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="card dataset-card">
+          <div class="card-content">
+            <p class="title is-5">Franka Kitchen</p>
+            <p class="content">
+              LeRobot archive used for the Kitchen image and state experiments.
+            </p>
+            <span class="tag is-light">Coming soon</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="card dataset-card">
+          <div class="card-content">
+            <p class="title is-5">UR3 BlockPush</p>
+            <p class="content">
+              LeRobot archive used for the UR3 block-pushing experiments.
+            </p>
+            <span class="tag is-light">Coming soon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section has-background-light" id="artifact">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Code Artifact Notes</h2>
+    <div class="content artifact-note">
+      <p>
+        The source artifact contains the training code, Hydra configurations,
+        simulator wrappers, and diagnostic scripts used by the experiments. The
+        dataset archives are intentionally external and should be downloaded
+        from the links above once they are available.
+      </p>
+      <p>
+        After downloading the datasets, set the local paths in the artifact
+        <code>.env</code> file as described in the artifact README.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Website template adapted from
+        <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
